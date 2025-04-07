@@ -7,7 +7,7 @@ using namespace std;
 struct date {
 	int day, month, year;
 };
-struct time {
+struct tim {
 	int hour, minute, second;
 	int operator - (time const& obj) {
 		return (hour - obj.hour) * 60 * 60 + (minute - obj.minute) * 60 + second - obj.second;
